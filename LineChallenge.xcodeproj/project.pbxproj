@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		04D8ABC42B9C59B700335A4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8ABC32B9C59B700335A4F /* main.swift */; };
+		04D8ABCC2B9C5D1A00335A4F /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8ABCB2B9C5D1A00335A4F /* Point.swift */; };
+		04D8ABCE2B9C5F4600335A4F /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8ABCD2B9C5F4600335A4F /* Line.swift */; };
+		04D8ABD02B9C651300335A4F /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8ABCF2B9C651300335A4F /* Orientation.swift */; };
+		04D8ABD22B9C659F00335A4F /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8ABD12B9C659F00335A4F /* Grid.swift */; };
+		04D8ABD82B9C77CD00335A4F /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8ABD72B9C77CD00335A4F /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +31,11 @@
 		04D8ABC02B9C59B700335A4F /* LineChallenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LineChallenge; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D8ABC32B9C59B700335A4F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04D8ABCA2B9C59D700335A4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04D8ABCB2B9C5D1A00335A4F /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		04D8ABCD2B9C5F4600335A4F /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		04D8ABCF2B9C651300335A4F /* Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		04D8ABD12B9C659F00335A4F /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		04D8ABD72B9C77CD00335A4F /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +69,22 @@
 		04D8ABC22B9C59B700335A4F /* LineChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				04D8ABD32B9C6B1E00335A4F /* Models */,
 				04D8ABC32B9C59B700335A4F /* main.swift */,
 			);
 			path = LineChallenge;
+			sourceTree = "<group>";
+		};
+		04D8ABD32B9C6B1E00335A4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04D8ABCF2B9C651300335A4F /* Orientation.swift */,
+				04D8ABCD2B9C5F4600335A4F /* Line.swift */,
+				04D8ABCB2B9C5D1A00335A4F /* Point.swift */,
+				04D8ABD12B9C659F00335A4F /* Grid.swift */,
+				04D8ABD72B9C77CD00335A4F /* CustomColor.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D8ABD02B9C651300335A4F /* Orientation.swift in Sources */,
+				04D8ABCE2B9C5F4600335A4F /* Line.swift in Sources */,
+				04D8ABD82B9C77CD00335A4F /* CustomColor.swift in Sources */,
+				04D8ABCC2B9C5D1A00335A4F /* Point.swift in Sources */,
+				04D8ABD22B9C659F00335A4F /* Grid.swift in Sources */,
 				04D8ABC42B9C59B700335A4F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
